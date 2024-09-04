@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Locale;
 
 import aula_02.entities.Product;
-import aula_02.util.PredicateProduct;
 
 public class Program {
 
@@ -19,7 +18,7 @@ public class Program {
 		list.add(new Product("Tablet", 350.50));
 		list.add(new Product("HD Case", 80.90));
 		
-		list.removeIf(new PredicateProduct());
+		list.removeIf(Product::staticProductPredicate);
 		
 		for(Product p : list) {
 			System.out.println(p);
