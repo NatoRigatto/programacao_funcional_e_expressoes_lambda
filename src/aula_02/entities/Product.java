@@ -25,10 +25,6 @@ public class Product {
 	public void setPrice(Double price) {
 		this.price = price;
 	}
-	
-	public boolean nonStaticProductPredicate() {
-		return price >= 100.00;
-	}
 
 	@Override
 	public String toString() {
