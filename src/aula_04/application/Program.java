@@ -19,7 +19,7 @@ public class Program {
 		list.add(new Product("Tablet", 350.50));
 		list.add(new Product("HD Case", 80.90));
 
-		List<String> name = list.stream().map(Product::staticProductFunction).collect(Collectors.toList());
+		List<String> name = list.stream().map(Product::nonStaticProductFunction).collect(Collectors.toList());
 		name.forEach(System.out::println);
 
 	}
