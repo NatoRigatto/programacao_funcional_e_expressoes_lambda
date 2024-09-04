@@ -1,9 +1,9 @@
-package aula_01_01.application;
+package aula_01.application;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import aula_01_01.entities.Product;
+import aula_01.entities.Product;
 
 public class Program {
 

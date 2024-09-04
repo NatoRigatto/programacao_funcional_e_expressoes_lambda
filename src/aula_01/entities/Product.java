@@ -1,4 +1,4 @@
-package aula_01_01.entities;
+package aula_01.entities;
 
 public class Product {
 
